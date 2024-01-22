@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import "./globals.css";
 import "../lib/dayfns";
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
