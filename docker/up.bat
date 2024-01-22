@@ -1,0 +1,1 @@
+docker-compose -p docker-mytrip -f ./docker-compose.yml up --build -d

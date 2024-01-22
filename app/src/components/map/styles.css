@@ -1,0 +1,43 @@
+.leaflet-bar a {
+  color: var(--color-gray-600);
+}
+
+.leaflet-bar {
+  box-shadow: #00000012 0px 0px 4px 0px !important;
+}
+
+.leaflet-container {
+  font-family: var(--font-inter), "Helvetica Neue" !important;
+  font-size: 0.75rem;
+}
+
+.leaflet-control-zoom a:first-child {
+  border-top-left-radius: var(--radius) !important;
+  border-top-right-radius: var(--radius) !important;
+}
+.leaflet-control-zoom a:last-child {
+  border-bottom-left-radius: var(--radius) !important;
+  border-bottom-right-radius: var(--radius) !important;
+}
+
+.leaflet-bar,
+.leaflet-container {
+  border: none !important;
+  border-radius: 0;
+}
+
+.leaflet-bar a,
+.leaflet-bar a:hover {
+  cursor: pointer;
+  border: none;
+}
+
+.leaflet-tooltip {
+  background-color: #000000c2;
+  border: none;
+  color: #fff;
+}
+
+.leaflet-tooltip-top:before {
+  border-top-color: #000000c2;
+}
